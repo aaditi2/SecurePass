@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5E7D092B2ED9725A00B40691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E7D09142ED9725900B40691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E7D091B2ED9725900B40691;
+			remoteInfo = SecurePass;
+		};
+		5E7D09352ED9725A00B40691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E7D09142ED9725900B40691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E7D091B2ED9725900B40691;
+			remoteInfo = SecurePass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E7D091C2ED9725900B40691 /* SecurePass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecurePass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7D092A2ED9725A00B40691 /* SecurePassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecurePassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7D09342ED9725A00B40691 /* SecurePassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecurePassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5E7D091E2ED9725900B40691 /* SecurePass */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SecurePass;
+			sourceTree = "<group>";
+		};
+		5E7D092D2ED9725A00B40691 /* SecurePassTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SecurePassTests;
+			sourceTree = "<group>";
+		};
+		5E7D09372ED9725A00B40691 /* SecurePassUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SecurePassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E7D09192ED9725900B40691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7D09272ED9725A00B40691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7D09312ED9725A00B40691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E7D09132ED9725900B40691 = {
+			isa = PBXGroup;
+			children = (
+				5E7D091E2ED9725900B40691 /* SecurePass */,
+				5E7D092D2ED9725A00B40691 /* SecurePassTests */,
+				5E7D09372ED9725A00B40691 /* SecurePassUITests */,
+				5E7D091D2ED9725900B40691 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E7D091D2ED9725900B40691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D091C2ED9725900B40691 /* SecurePass.app */,
+				5E7D092A2ED9725A00B40691 /* SecurePassTests.xctest */,
+				5E7D09342ED9725A00B40691 /* SecurePassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E7D091B2ED9725900B40691 /* SecurePass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7D093E2ED9725A00B40691 /* Build configuration list for PBXNativeTarget "SecurePass" */;
+			buildPhases = (
+				5E7D09182ED9725900B40691 /* Sources */,
+				5E7D09192ED9725900B40691 /* Frameworks */,
+				5E7D091A2ED9725900B40691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5E7D091E2ED9725900B40691 /* SecurePass */,
+			);
+			name = SecurePass;
+			packageProductDependencies = (
+			);
+			productName = SecurePass;
+			productReference = 5E7D091C2ED9725900B40691 /* SecurePass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E7D09292ED9725A00B40691 /* SecurePassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7D09412ED9725A00B40691 /* Build configuration list for PBXNativeTarget "SecurePassTests" */;
+			buildPhases = (
+				5E7D09262ED9725A00B40691 /* Sources */,
+				5E7D09272ED9725A00B40691 /* Frameworks */,
+				5E7D09282ED9725A00B40691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E7D092C2ED9725A00B40691 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5E7D092D2ED9725A00B40691 /* SecurePassTests */,
+			);
+			name = SecurePassTests;
+			packageProductDependencies = (
+			);
+			productName = SecurePassTests;
+			productReference = 5E7D092A2ED9725A00B40691 /* SecurePassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E7D09332ED9725A00B40691 /* SecurePassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7D09442ED9725A00B40691 /* Build configuration list for PBXNativeTarget "SecurePassUITests" */;
+			buildPhases = (
+				5E7D09302ED9725A00B40691 /* Sources */,
+				5E7D09312ED9725A00B40691 /* Frameworks */,
+				5E7D09322ED9725A00B40691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E7D09362ED9725A00B40691 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5E7D09372ED9725A00B40691 /* SecurePassUITests */,
+			);
+			name = SecurePassUITests;
+			packageProductDependencies = (
+			);
+			productName = SecurePassUITests;
+			productReference = 5E7D09342ED9725A00B40691 /* SecurePassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E7D09142ED9725900B40691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5E7D091B2ED9725900B40691 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5E7D09292ED9725A00B40691 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5E7D091B2ED9725900B40691;
+					};
+					5E7D09332ED9725A00B40691 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5E7D091B2ED9725900B40691;
+					};
+				};
+			};
+			buildConfigurationList = 5E7D09172ED9725900B40691 /* Build configuration list for PBXProject "SecurePass" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E7D09132ED9725900B40691;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5E7D091D2ED9725900B40691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E7D091B2ED9725900B40691 /* SecurePass */,
+				5E7D09292ED9725A00B40691 /* SecurePassTests */,
+				5E7D09332ED9725A00B40691 /* SecurePassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E7D091A2ED9725900B40691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7D09282ED9725A00B40691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7D09322ED9725A00B40691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E7D09182ED9725900B40691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7D09262ED9725A00B40691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7D09302ED9725A00B40691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E7D092C2ED9725A00B40691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E7D091B2ED9725900B40691 /* SecurePass */;
+			targetProxy = 5E7D092B2ED9725A00B40691 /* PBXContainerItemProxy */;
+		};
+		5E7D09362ED9725A00B40691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E7D091B2ED9725900B40691 /* SecurePass */;
+			targetProxy = 5E7D09352ED9725A00B40691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E7D093C2ED9725A00B40691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E7D093D2ED9725A00B40691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5E7D093F2ED9725A00B40691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SecurePass/SecurePass.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SecurePass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E7D09402ED9725A00B40691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SecurePass/SecurePass.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SecurePass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5E7D09422ED9725A00B40691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SecurePassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecurePass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecurePass";
+			};
+			name = Debug;
+		};
+		5E7D09432ED9725A00B40691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SecurePassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecurePass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecurePass";
+			};
+			name = Release;
+		};
+		5E7D09452ED9725A00B40691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SecurePassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SecurePass;
+			};
+			name = Debug;
+		};
+		5E7D09462ED9725A00B40691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.SecurePassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SecurePass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E7D09172ED9725900B40691 /* Build configuration list for PBXProject "SecurePass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7D093C2ED9725A00B40691 /* Debug */,
+				5E7D093D2ED9725A00B40691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7D093E2ED9725A00B40691 /* Build configuration list for PBXNativeTarget "SecurePass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7D093F2ED9725A00B40691 /* Debug */,
+				5E7D09402ED9725A00B40691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7D09412ED9725A00B40691 /* Build configuration list for PBXNativeTarget "SecurePassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7D09422ED9725A00B40691 /* Debug */,
+				5E7D09432ED9725A00B40691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7D09442ED9725A00B40691 /* Build configuration list for PBXNativeTarget "SecurePassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7D09452ED9725A00B40691 /* Debug */,
+				5E7D09462ED9725A00B40691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E7D09142ED9725900B40691 /* Project object */;
+}
